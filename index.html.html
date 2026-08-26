@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Lorenita Camacho | Data &amp; BI Portfolio</title>
+<style>
+:root{--ink:#17202a;--muted:#5b6573;--line:#dfe4ea;--panel:#f7f9fb;--accent:#1f5f8b;}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.55}
+.wrap{max-width:1100px;margin:auto;padding:0 28px} header{padding:72px 0 48px;background:var(--panel);border-bottom:1px solid var(--line)}
+h1{font-size:46px;margin:0 0 8px;letter-spacing:-1px} h2{font-size:28px;margin:0 0 22px} h3{font-size:20px;margin:5px 0 10px}
+.sub{font-size:21px;color:var(--muted);max-width:780px} .contact{margin-top:18px;color:var(--muted)}
+section{padding:52px 0} .skills{display:flex;flex-wrap:wrap;gap:9px} .pill{padding:8px 11px;border:1px solid var(--line);border-radius:999px;background:white}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px} .card{border:1px solid var(--line);border-radius:14px;padding:22px;background:white}
+.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:1.2px;color:var(--accent);font-weight:bold} .note{color:var(--muted);font-size:14px}
+.tools{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-size:13px;font-weight:bold} footer{padding:30px 0 55px;color:var(--muted);border-top:1px solid var(--line)}
+@media(max-width:720px){.grid{grid-template-columns:1fr}h1{font-size:36px}}
+
+.visual{margin:16px 0 4px;border:1px solid var(--line);border-radius:12px;background:#fbfcfd;padding:14px}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.kpi{background:white;border:1px solid var(--line);border-radius:9px;padding:9px}
+.kpi b{display:block;font-size:17px}.kpi span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.bars{display:flex;align-items:flex-end;gap:7px;height:86px;padding:8px 4px 2px;border-bottom:1px solid var(--line)}
+.bar{flex:1;background:#7f8c99;border-radius:4px 4px 0 0;min-width:10px;position:relative}
+.bar.alt{background:#a6afb8}.bar::after{content:attr(data-label);position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:9px;color:var(--muted)}
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;font-size:10px;color:var(--muted)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#7f8c99;margin-right:5px}.dot.alt{background:#a6afb8}
+.progress-row{display:grid;grid-template-columns:72px 1fr 42px;gap:8px;align-items:center;margin:7px 0;font-size:11px}
+.track{height:8px;background:#e8ebee;border-radius:99px;overflow:hidden}.fill{height:100%;background:#7f8c99}.fill.alt{background:#a6afb8}
+.table-mini{width:100%;border-collapse:collapse;font-size:10px}.table-mini th,.table-mini td{padding:6px;border-bottom:1px solid var(--line);text-align:left}
+.table-mini th{color:var(--muted);font-weight:600}
+.donut-wrap{display:flex;gap:16px;align-items:center}.donut{width:88px;height:88px;border-radius:50%;background:conic-gradient(#7f8c99 0 54%,#a6afb8 54% 78%,#d4d9de 78%);position:relative;flex:0 0 auto}
+.donut:after{content:"";position:absolute;inset:19px;border-radius:50%;background:#fbfcfd}
+.spark{width:100%;height:90px}.spark polyline{fill:none;stroke:#7f8c99;stroke-width:3}.spark .ghost{stroke:#c3c9cf;stroke-width:2}
+.caption{font-size:10px;color:var(--muted);margin-top:8px}
+@media(max-width:720px){.kpis{grid-template-columns:1fr 1fr}.donut-wrap{align-items:flex-start}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="eyebrow">Data • BI • Financial Analytics • Automation</div>
+<h1>Lorenita R. Camacho</h1>
+<div class="sub">I build practical dashboards, financial reporting workflows, reconciliations, and reporting automations that turn complex data into clear business decisions.</div>
+<div class="contact">Cavite, Philippines • lorenitarule1425@gmail.com • 09551520979</div>
+</div></header>
+<main>
+<section><div class="wrap">
+<h2>Capabilities</h2>
+<div class="skills">
+<span class="pill">Power BI</span><span class="pill">Tableau</span><span class="pill">SQL</span><span class="pill">Python</span><span class="pill">VBA</span><span class="pill">Advanced Excel</span><span class="pill">Power Query</span><span class="pill">Microsoft Fabric</span><span class="pill">Power Apps</span><span class="pill">SharePoint Lists</span><span class="pill">NetSuite</span><span class="pill">Oracle NSPB / OCI</span><span class="pill">ServiceNow</span><span class="pill">Zendesk</span><span class="pill">Financial Analysis</span><span class="pill">ETL &amp; Data Quality</span>
+</div>
+</div></section>
+<section style="background:#f7f9fb"><div class="wrap">
+<h2>Selected Work</h2>
+<p style="color:#5b6573;max-width:820px">Company names are fictionalized to protect client confidentiality. The project themes reflect real work completed. Dashboard previews below use anonymized or synthetic sample values so the portfolio can show the type of analysis and reporting built without exposing client data.</p>
+<div class="grid">
+<article class="card">
+<div class="eyebrow">Northstar Managed Services</div>
+<h3>Power BI – Backlog &amp; Revenue Forecasting</h3>
+<div aria-label="Sample backlog and revenue dashboard preview" class="visual">
+<div class="kpis">
+<div class="kpi"><span>Current Backlog</span><b>42</b></div>
+<div class="kpi"><span>Active Projects</span><b>31</b></div>
+<div class="kpi"><span>Completion</span><b>78%</b></div>
+</div>
+<div class="bars">
+<div class="bar" data-label="Jul" style="height:54%"></div>
+<div class="bar alt" data-label="Aug" style="height:66%"></div>
+<div class="bar" data-label="Sep" style="height:74%"></div>
+<div class="bar alt" data-label="Oct" style="height:61%"></div>
+<div class="bar" data-label="Nov" style="height:83%"></div>
+<div class="bar alt" data-label="Dec" style="height:91%"></div>
+</div>
+<div class="legend"><span><i class="dot"></i>Earned / backlog trend</span><span><i class="dot alt"></i>Forecast</span></div>
+<div class="caption">Representative portfolio visual using anonymized sample values.</div>
+</div>
+
+<p class="note">Anonymized portfolio case study based on a managed-services reporting project.</p>
+<ul><li>Current backlog and active projects</li><li>Earned vs. forecast revenue</li><li>Completion rate and SLA</li><li>Top in-progress backlog by project group</li></ul>
+<div class="tools">Power BI, Power Query, Excel, DAX</div>
+</article>
+<article class="card">
+<div class="eyebrow">Harborline Service Operations</div>
+<h3>ServiceNow – Monthly Operations &amp; SLA</h3>
+<div aria-label="Sample SLA dashboard preview" class="visual">
+<div class="kpis">
+<div class="kpi"><span>Tickets Closed</span><b>1,284</b></div>
+<div class="kpi"><span>SLA Met</span><b>94.6%</b></div>
+<div class="kpi"><span>Avg Resolution</span><b>6.8h</b></div>
+</div>
+<div class="progress-row"><span>Cloud</span><div class="track"><div class="fill" style="width:96%"></div></div><b>96%</b></div>
+<div class="progress-row"><span>ESD</span><div class="track"><div class="fill alt" style="width:92%"></div></div><b>92%</b></div>
+<div class="progress-row"><span>Network</span><div class="track"><div class="fill" style="width:89%"></div></div><b>89%</b></div>
+<div class="progress-row"><span>Security</span><div class="track"><div class="fill alt" style="width:97%"></div></div><b>97%</b></div>
+<div class="caption">Sample SLA/group view modeled on recurring service-management reporting.</div>
+</div>
+
+<p class="note">Anonymized case study based on recurring service-management reporting.</p>
+<ul><li>Ticket volume and closure trends</li><li>SLA performance by support group</li><li>Incident and monitoring trends</li><li>Month-to-date operational views</li></ul>
+<div class="tools">ServiceNow, SQL, Python, Excel, Tableau</div>
+</article>
+<article class="card">
+<div class="eyebrow">ClearView Medical Finance</div>
+<h3>IOL Usage vs. Financial Reconciliation</h3>
+<div aria-label="Sample financial reconciliation preview" class="visual">
+<div class="kpis">
+<div class="kpi"><span>Financial Total</span><b>$128.4K</b></div>
+<div class="kpi"><span>Usage Total</span><b>$124.9K</b></div>
+<div class="kpi"><span>Variance</span><b>$3.5K</b></div>
+</div>
+<table class="table-mini">
+<thead><tr><th>Category</th><th>Financial</th><th>Usage</th><th>Variance</th></tr></thead>
+<tbody>
+<tr><td>Account A</td><td>$52,110</td><td>$51,880</td><td>$230</td></tr>
+<tr><td>Account B</td><td>$41,240</td><td>$39,900</td><td>$1,340</td></tr>
+<tr><td>Account C</td><td>$35,050</td><td>$33,120</td><td>$1,930</td></tr>
+</tbody>
+</table>
+<div class="caption">Illustrative reconciliation layout; values are synthetic.</div>
+</div>
+
+<p class="note">Anonymized case study based on healthcare inventory/financial reconciliation work.</p>
+<ul><li>Usage vs. financial-system comparison</li><li>PO/invoice reconciliation</li><li>Variance detail for investigation</li><li>Monthly summary by account/location</li></ul>
+<div class="tools">Excel, Power Query, XLOOKUP, reconciliation logic</div>
+</article>
+<article class="card">
+<div class="eyebrow">Evergreen Benefits Group</div>
+<h3>Payroll &amp; Benefits Consolidation</h3>
+<div aria-label="Sample payroll consolidation preview" class="visual">
+<div class="donut-wrap">
+<div aria-hidden="true" class="donut"></div>
+<div style="flex:1">
+<div class="progress-row"><span>Validated</span><div class="track"><div class="fill" style="width:94%"></div></div><b>94%</b></div>
+<div class="progress-row"><span>Mapped</span><div class="track"><div class="fill alt" style="width:88%"></div></div><b>88%</b></div>
+<div class="progress-row"><span>Balanced</span><div class="track"><div class="fill" style="width:100%"></div></div><b>100%</b></div>
+</div>
+</div>
+<div class="kpis" style="margin-top:12px">
+<div class="kpi"><span>Sources</span><b>6</b></div>
+<div class="kpi"><span>Employees</span><b>326</b></div>
+<div class="kpi"><span>JE Balance</span><b>$0</b></div>
+</div>
+<div class="caption">Sample validation and balancing view for multi-source payroll reporting.</div>
+</div>
+
+<p class="note">Anonymized case study based on multi-source payroll and benefit reporting.</p>
+<ul><li>Multi-file consolidation</li><li>Employee allocation validation</li><li>Debit/credit balancing</li><li>Upload-ready CSV preparation</li></ul>
+<div class="tools">Excel, VBA, Python, NetSuite</div>
+</article>
+<article class="card">
+<div class="eyebrow">Summit Planning Co.</div>
+<h3>Oracle NSPB Income Statement Reporting</h3>
+<div aria-label="Sample Oracle NSPB reporting preview" class="visual">
+<div class="kpis">
+<div class="kpi"><span>Scenario</span><b>Actual</b></div>
+<div class="kpi"><span>Fiscal Year</span><b>FY26</b></div>
+<div class="kpi"><span>Period</span><b>Jan–Jul</b></div>
+</div>
+<svg aria-label="Monthly financial trend sample" class="spark" role="img" viewbox="0 0 420 90">
+<polyline class="ghost" points="5,70 65,65 125,68 185,54 245,58 305,46 365,50 415,38"></polyline>
+<polyline points="5,76 65,69 125,61 185,64 245,50 305,53 365,39 415,31"></polyline>
+</svg>
+<div class="caption">Illustrative Smart View / planning trend preview with anonymized sample data.</div>
+</div>
+
+<p class="note">Anonymized case study based on Oracle planning/reporting support.</p>
+<ul><li>Smart View POV configuration</li><li>Period and project mapping</li><li>Data-load troubleshooting</li><li>Income statement validation</li></ul>
+<div class="tools">Oracle NSPB, Smart View, OCI, Excel</div>
+</article>
+<article class="card">
+<div class="eyebrow">BluePeak Operations</div>
+<h3>Power Apps + SharePoint Data Capture</h3>
+<div aria-label="Sample Power Apps and SharePoint workflow preview" class="visual">
+<div class="kpis">
+<div class="kpi"><span>Records</span><b>248</b></div>
+<div class="kpi"><span>Required Fields</span><b>12</b></div>
+<div class="kpi"><span>Validation</span><b>98%</b></div>
+</div>
+<table class="table-mini">
+<thead><tr><th>Date</th><th>Location</th><th>Procedure</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>08/24</td><td>Site A</td><td>Procedure X</td><td>Complete</td></tr>
+<tr><td>08/25</td><td>Site B</td><td>Procedure Y</td><td>Complete</td></tr>
+<tr><td>08/26</td><td>Site A</td><td>Procedure Z</td><td>Review</td></tr>
+</tbody>
+</table>
+<div class="caption">Representative data-capture/reporting workflow; no real patient or client data shown.</div>
+</div>
+
+<p class="note">Anonymized case study based on an operational form and reporting workflow.</p>
+<ul><li>Structured SharePoint List</li><li>Power Apps data-entry concept</li><li>Search and standardized fields</li><li>Downstream Excel/BI reporting</li></ul>
+<div class="tools">Power Apps, SharePoint Lists, Microsoft 365</div>
+</article></div>
+</div></section>
+<section><div class="wrap">
+<h2>Professional Focus</h2>
+<p>Data visualization and reporting, financial analytics, reporting automation, data quality, reconciliation, operational analytics, and business-process improvement. Available for data analyst, BI/reporting analyst, financial analyst, and analytics-focused freelance opportunities.</p>
+</div></section>
+</main>
+<footer><div class="wrap">Portfolio prepared for professional presentation. Add screenshots only after removing confidential names, patient/customer data, IDs, financial account details, and proprietary information.</div></footer>
+</body></html>
